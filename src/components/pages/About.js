@@ -3,14 +3,25 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 className="text-center">About me!</h1>
+      <img>
+      
+      </img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      My name is Alex. In May 2020, I graduated from 
+      The College of New Jersey with a bachelor's degree in Finance and a minor in Philosophy. 
+      I had a career as an accountant for two years, but have since left that career to focus on
+      building my coding skills and dedicating myself to my boot camp course full time.
+      </p>
+      <br></br>
+      <p>
+      In my free time, I enjoy playing and learning about video games, weight lifitng, and building LEGO sets.
+      </p>
+      <br></br>
+      <p>
+      I have a passion for information technology and am furthering my web development skills. 
+      I value continuous learning and one of my goals is to help make information more easily 
+      accessible to everyone. I hope to grow professionally and lead a life of impact.
       </p>
     </div>
   );
