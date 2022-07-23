@@ -8,6 +8,7 @@ import { validateEmail } from './images/helpers.js';
 function Form() {
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
+  const [message, setMessage] = useState('');
 
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -19,7 +20,8 @@ function Form() {
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'userName') {
-      setUserName(inputValue);
+      setUserName(inputValue)
+      setMessage(inputValue);
     }
   };
 
@@ -32,7 +34,7 @@ function Form() {
     }
 
     setUserName('');
-
+    setMessage('');
     setEmail('');
   };
 
@@ -54,13 +56,13 @@ function Form() {
           type="text"
           placeholder="name"
         />
-        {/* <input
+        <input
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
-        /> */}
+        />
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
