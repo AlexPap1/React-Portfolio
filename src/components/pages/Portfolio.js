@@ -77,26 +77,29 @@ export default function Portfolio() {
         <h2 class="contact-info text-center"> Contact and Connect with Me! </h2>
         </section>
         <br></br>
-        <div class="text-center">
-            <ul class="contact-images">
-                <li>
+        <div className="text-center">
+            <ul className="text-center d-inline">
+                <li className="text-center d-inline">
                     <img src={email} alt="EmailIcon"
                     width="110"
-                    height="110"></img>
+                    height="110"
+                    className="d-inline"></img>
                 </li>
-                <li>
+                <li className="text-center d-inline">
                     <img src={linkedin} alt="LinkedInIcon"
                     width="100"
-                    height="100"></img>
+                    height="100"
+                    className="d-inline"></img>
                 </li>
-                <li>
+                <li className="text-center d-inline">
                     <img src={phone} alt="PhoneIcon"
                     width="100"
-                    height="100"></img>
+                    height="100"
+                    className="d-inline px-2"></img>
                 </li>
             </ul>
         </div>
-        <ul class="contact-names text-center">
+        <ul className="text-center d-inline">
            <li>
                Email: <a href="mailto:arpappagallo@gmail.com">arpappagallo@gmail.com</a>
            </li>
