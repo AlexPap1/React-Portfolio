@@ -20,7 +20,8 @@ function Form() {
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'userName') {
-      setUserName(inputValue)
+      setUserName(inputValue);
+    } else if (inputType === 'message') {
       setMessage(inputValue);
     }
   };
@@ -30,6 +31,11 @@ function Form() {
 
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
+      return;
+    }
+
+    if (!userName || !email || !message) {
+      setErrorMessage('Please Fill Required Fields');
       return;
     }
 
