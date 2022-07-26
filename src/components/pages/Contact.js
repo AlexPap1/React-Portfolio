@@ -80,7 +80,7 @@ function Form() {
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text text-center">{errorMessage}</p>
         </div>
       )}
         <br></br>

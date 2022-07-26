@@ -13,58 +13,62 @@ import ReadMe from "./images/ReadMe.png"
 export default function Portfolio() {
   return (
     <div className="bg-warning bg-gradient">
-      <h1 className="text-center">Portfolio Page</h1>
+      <h1 className="text-center py-3">Portfolio Page</h1>
       <h5 className="text-center"> 
         Feel free to browse a few of my repositories by clicking the images below!
       </h5>
       <br></br>
-      <div className="text-center">
-        <ul class="row_1">
-          <li className="list-unstyled">
+      <div className="text-center container">
+        <ul class="row">
+          <li className="list-unstyled col">
               <h3>What's That Movie?</h3>
               <br></br>
               <a href="https://alexpap1.github.io/Whats-That-Movie/">
-                  <img src={WTM} alt="What's That Movie?"></img>
+                  <img className="col-sm-12" src={WTM} alt="What's That Movie?"></img>
                 </a>
           </li>
           <br></br>
-          <li className="list-unstyled">
+          <li className="list-unstyled col">
               <h3>Dog Meet Dog</h3>
               <br></br>
               <a href="https://dog-meet-dog-final.herokuapp.com/">
-                <img src={DMD} alt="Dog Meet Dog"></img>
+                <img className="col-sm-12" src={DMD} alt="Dog Meet Dog"></img>
                 </a>
           </li>
+        </ul>
+        <ul class="row">
           <br></br>
-          <li className="list-unstyled">
+          <li className="list-unstyled col">
               <h3>Social Network API</h3>
               <br></br>
               <a href="https://github.com/AlexPap1/social-network-api">
-                <img src={SNAPI} alt="Social Network API"></img>
+                <img className="col-sm-12" src={SNAPI} alt="Social Network API"></img>
                 </a>
           </li>
           <br></br>
-          <li className="list-unstyled">
+          <li className="list-unstyled col">
               <h3>Note Taker</h3>
               <br></br>
               <a href="https://note-taker-alexpap01.herokuapp.com/">
-                <img src={Note} alt="Note Taker"></img>
+                <img className="col-sm-12" src={Note} alt="Note Taker"></img>
                 </a>
           </li>
+        </ul>
+        <ul class="row">
           <br></br>
-          <li className="list-unstyled">
+          <li className="list-unstyled col">
               <h3>Weather Dashboard API</h3>
               <br></br>
               <a href="https://alexpap1.github.io/Weather-Dashboard/">
-                <img src={Weather} alt="Weather Dashboard"></img>
+                <img className="col-sm-12" src={Weather} alt="Weather Dashboard"></img>
                 </a>
           </li>
           <br></br>
-          <li className="list-unstyled">
+          <li className="list-unstyled col">
               <h3>Read Me Generator</h3>
               <br></br>
               <a href="https://github.com/AlexPap1/READ-ME-Generator">
-                <img src={ReadMe} alt="Read Me Generator"></img>
+                <img className="col-sm-12" src={ReadMe} alt="Read Me Generator"></img>
                 </a>
           </li>
         </ul>
