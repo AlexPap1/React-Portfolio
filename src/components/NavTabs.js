@@ -3,9 +3,9 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-    <h1 className="px-5 py-2">
+    <h3 className="px-5 py-2">
         Alex Pappagallo
-    </h1>
+    </h3>
       <li className="nav-item">
         <a
           href="#about"

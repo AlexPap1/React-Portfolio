@@ -7,12 +7,25 @@ import resume from './images/resume.pdf'
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
-      <p>
-        Check out my resume by clicking the link below 🤝
-      </p>
-      <a href={resume} download>Click to download</a>
+    <div className="bg-warning bg-gradient">
+      <h1 className="py-3 text-center">My Resume</h1>
+      <h2 className="text-center">
+        Check out my resume by clicking the link below:
+      </h2>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1 className="text-center py-1">
+        <a href={resume} download>Click to download</a>
+      </h1>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <section id="contact-me" class="contact-me">
         <div class="text-center">
             <img src={contact} alt="Contact Stock Photo"

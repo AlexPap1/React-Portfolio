@@ -12,14 +12,15 @@ import ReadMe from "./images/ReadMe.png"
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
+    <div className="bg-warning bg-gradient">
+      <h1 className="text-center">Portfolio Page</h1>
+      <h5 className="text-center"> 
         Feel free to browse a few of my repositories by clicking the images below!
-      </p>
+      </h5>
+      <br></br>
       <div className="text-center">
         <ul class="row_1">
-          <li>
+          <li className="list-unstyled">
               <h3>What's That Movie?</h3>
               <br></br>
               <a href="https://alexpap1.github.io/Whats-That-Movie/">
@@ -27,7 +28,7 @@ export default function Portfolio() {
                 </a>
           </li>
           <br></br>
-          <li>
+          <li className="list-unstyled">
               <h3>Dog Meet Dog</h3>
               <br></br>
               <a href="https://dog-meet-dog-final.herokuapp.com/">
@@ -35,7 +36,7 @@ export default function Portfolio() {
                 </a>
           </li>
           <br></br>
-          <li>
+          <li className="list-unstyled">
               <h3>Social Network API</h3>
               <br></br>
               <a href="https://github.com/AlexPap1/social-network-api">
@@ -43,7 +44,7 @@ export default function Portfolio() {
                 </a>
           </li>
           <br></br>
-          <li>
+          <li className="list-unstyled">
               <h3>Note Taker</h3>
               <br></br>
               <a href="https://note-taker-alexpap01.herokuapp.com/">
@@ -51,7 +52,7 @@ export default function Portfolio() {
                 </a>
           </li>
           <br></br>
-          <li>
+          <li className="list-unstyled">
               <h3>Weather Dashboard API</h3>
               <br></br>
               <a href="https://alexpap1.github.io/Weather-Dashboard/">
@@ -59,7 +60,7 @@ export default function Portfolio() {
                 </a>
           </li>
           <br></br>
-          <li>
+          <li className="list-unstyled">
               <h3>Read Me Generator</h3>
               <br></br>
               <a href="https://github.com/AlexPap1/READ-ME-Generator">
