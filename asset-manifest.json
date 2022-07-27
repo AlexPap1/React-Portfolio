@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.f0d685eb.css",
+    "main.js": "/React-Portfolio/static/js/main.c17feb2e.js",
+    "static/media/samplegif.gif": "/React-Portfolio/static/media/samplegif.89cdb1a58fe84af6be86.gif",
+    "static/media/pfp.png": "/React-Portfolio/static/media/pfp.40107fac32fa88038b4e.png",
+    "static/media/WTM.png": "/React-Portfolio/static/media/WTM.79a5304da7928b810aab.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.9af50a131858f3145b22.pdf",
+    "static/media/SocialNetworkAPI.png": "/React-Portfolio/static/media/SocialNetworkAPI.238dfd2c477e9d7ec4ba.png",
+    "static/media/Weather.png": "/React-Portfolio/static/media/Weather.010774dfb54a94bc8a69.png",
+    "static/media/ReadMe.png": "/React-Portfolio/static/media/ReadMe.255c2061b6f6eefbff30.png",
+    "static/media/email.png": "/React-Portfolio/static/media/email.f2e217b2a3a830050416.png",
+    "static/media/NoteTaker.png": "/React-Portfolio/static/media/NoteTaker.a874ac8a7f6e50371807.png",
+    "static/media/linkedin.png": "/React-Portfolio/static/media/linkedin.e9db41041d38d6fb97b4.png",
+    "static/media/contact.png": "/React-Portfolio/static/media/contact.69d2d8e941a78e1219b2.png",
+    "static/media/phone.png": "/React-Portfolio/static/media/phone.f35464356dcfb91b0598.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.f0d685eb.css.map": "/React-Portfolio/static/css/main.f0d685eb.css.map",
+    "main.c17feb2e.js.map": "/React-Portfolio/static/js/main.c17feb2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0d685eb.css",
+    "static/js/main.c17feb2e.js"
+  ]
+}
