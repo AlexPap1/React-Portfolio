@@ -9,6 +9,7 @@ import SNAPI from './images/SocialNetworkAPI.png'
 import Note from "./images/NoteTaker.png"
 import Weather from "./images/Weather.png"
 import ReadMe from "./images/ReadMe.png"
+import BR2 from "./images/BR2.png"
 
 export default function Portfolio() {
   return (
@@ -39,10 +40,10 @@ export default function Portfolio() {
         <ul class="row">
           <br></br>
           <li className="list-unstyled col">
-              <h3>Social Network API</h3>
+              <h3>Better Reads 2.0</h3>
               <br></br>
-              <a href="https://github.com/AlexPap1/social-network-api">
-                <img className="col-sm-12" src={SNAPI} alt="Social Network API"></img>
+              <a href="https://better-reads-2.herokuapp.com/">
+                <img className="col-sm-12" src={BR2} alt="Better Reads 2.0"></img>
                 </a>
           </li>
           <br></br>
@@ -65,10 +66,10 @@ export default function Portfolio() {
           </li>
           <br></br>
           <li className="list-unstyled col">
-              <h3>Read Me Generator</h3>
+              <h3>Social Network API</h3>
               <br></br>
-              <a href="https://github.com/AlexPap1/READ-ME-Generator">
-                <img className="col-sm-12" src={ReadMe} alt="Read Me Generator"></img>
+              <a href="https://github.com/AlexPap1/social-network-api">
+                <img className="col-sm-12" src={SNAPI} alt="Social Network API"></img>
                 </a>
           </li>
         </ul>
