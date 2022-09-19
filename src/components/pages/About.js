@@ -17,18 +17,19 @@ export default function About() {
                 <p className="float-right">
                     My name is Alex. In May 2020, I graduated from 
                     The College of New Jersey with a bachelor's degree in Finance and a minor in Philosophy. 
-                    I had a career as an accountant for two years, but have since left that career to focus on
-                    building my coding skills and dedicating myself to my boot camp course full time.
+                    Motivated full stack web developer and decisive leader. Transitioning from accounting to a software engineering/developer role. 
+                    Recently completed the Rutgers University full stack certificate. 
+
                 </p>
                 <br></br>
                 <p className="float-right">
-                    In my free time, I enjoy playing and learning about video games, weight lifitng, and building LEGO sets.
-                </p>
+                A critical thinker and efficient problem solver with over two years of diverse professional experience. 
+                Most recently have made an interactive MERN application within a team of four to help readers interact and share books online.                 </p>
                 <br></br>
                 <p className="float-right">
-                    I have a passion for information technology and am furthering my web development skills. 
-                    I value continuous learning and one of my goals is to help make information more easily 
-                    accessible to everyone. I hope to grow professionally and lead a life of impact.
+                Passionate about continuous improvement of front end/back end skills and professional growth. 
+                Disciplined, objective focused, and detail oriented work ethic when handling projects. 
+                Excited and prepared to be a valuable asset to a strong team.
                 </p>
             </div>
         </div>
